@@ -1,0 +1,31 @@
+.formDiv{
+    height: 20vh;
+    width: 90%;
+    /* border: 2px solid green; */
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formDiv form input{
+    height: 2.4rem;
+    width: 42rem;
+    outline: none;
+    margin-right: 35px;
+}
+.formDiv form button{
+    height: 2.4rem;
+    width: 9rem;
+    outline: none;
+    border: none;
+    background-color: midnightblue;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.formDiv form button:active{
+    transform: scale(0.98);
+}
+.formDiv form button:hover{
+    background-color: blue;
+}

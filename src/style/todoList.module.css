@@ -1,0 +1,77 @@
+.listOuterDiv{
+    height: auto;
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: 10px auto;
+    
+}
+.listOuterDiv ul{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    height: 14vh;
+    width: 90%;
+    list-style: none;
+    /* border: 2px solid gray; */
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgb(227, 226, 226);
+    box-shadow: 2px 2px 2px lightgray;
+}
+.text{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+#toggleRes{
+    border: none;
+    outline: none;
+    /* background-color: red; */
+    border-radius: 5px ;
+    padding: 4px 10px;
+    color: white;
+}
+.buttonsDiv{
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonsDiv button{
+    height: 2rem;
+    width: 4rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.buttonsDiv button:active{
+    transform: scale(0.97);
+}
+.toggle{
+    background-color: blue;
+}
+.toggle:hover{
+    background-color: rgb(50, 50, 244);
+}
+.delete{
+    background-color: red;
+}
+.delete:hover{
+    background-color: rgb(244, 58, 58);
+}
+.togglePending{
+    background-color: red;
+}
+.toggleCompleted{
+    background-color: green;
+}
+.update{
+    background-color: orange;
+}
